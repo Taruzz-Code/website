@@ -1,0 +1,88 @@
+*{box-sizing: border-box;}
+body{
+    background-color: #000;
+    margin: 0;
+}
+.active{
+    background-color: #2b5214;
+}
+.brand{
+    width: 40%;
+    float: left;
+}
+.logo{
+    height: 75px;
+    padding: 10px 0 0 10px;
+    float: left;
+}
+nav{
+    float: left;
+    width: 60%;
+}
+.nav{
+    padding: 3% 1% 1% 1%;
+    text-align: center;
+    float: left;
+    width: 25%;
+    font-size: 150%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+h1{
+    color: #fff;
+    font-size: 700%;
+    text-align: center;
+}
+h3{
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+}
+h4{
+    color: #fff;
+    font-size: 150%;
+    float: left;
+    padding-left: 5%;
+}
+h5{
+    color: #fff;
+    font-size: 120%;
+    float: left;
+    padding-left: 5%;
+    margin: 0;
+}
+.contactLogo{
+    height: 50px;
+    float: left;
+}
+.contact{
+    width: 20%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.home{
+    background-image: url("../images/homeing.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+footer{
+    padding: 0 5%;
+    bottom: 10px;
+    position: absolute ;
+    width: 100%;
+}
+.center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
