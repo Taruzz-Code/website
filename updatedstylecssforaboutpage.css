@@ -1,0 +1,163 @@
+*{box-sizing: border-box;}
+body{
+    background-color: #000;
+    margin: 0;
+}
+.active{
+    background-color: #2b5214;
+}
+.brand{
+    width: 40%;
+    float: left;
+}
+.logo{
+    height: 75px;
+    padding: 10px 0 0 10px;
+    float: left;
+}
+nav{
+    float: left;
+    width: 60%;
+}
+.nav{
+    padding: 3% 1% 1% 1%;
+    text-align: center;
+    float: left;
+    width: 25%;
+    font-size: 150%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+h1{
+    color: #fff;
+    font-size: 700%;
+    text-align: center;
+}
+h3{
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+}
+h4{
+    color: #fff;
+    font-size: 150%;
+    float: left;
+    padding-left: 5%;
+}
+h5{
+    color: #fff;
+    font-size: 120%;
+    float: left;
+    padding-left: 5%;
+    margin: 0;
+}
+.contactLogo{
+    height: 50px;
+    float: left;
+}
+.contact{
+    width: 20%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.home{
+    background-image: url("../images/homeing.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+footer{
+    padding: 0 5%;
+    width: 100%;
+}
+.center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* About Page Layout */
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    margin: 40px 0;
+    width: 100%;
+}
+.about-section.reverse {
+    flex-direction: row-reverse;
+}
+.about-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+.about-img {
+    width: 80%;
+    max-width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.about-content {
+    flex: 2;
+    color: #fff;
+    padding: 0 40px;
+}
+.about-content h1, .about-content h2 {
+    font-size: 4em;
+    font-family: Impact, Charcoal, sans-serif;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    text-align: left;
+}
+.about-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.about-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+.about-social {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 1.1em;
+    color: #fff;
+}
+.about-social img {
+    height: 32px;
+    margin-right: 8px;
+}
+.about-footer-label {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+@media (max-width: 900px) {
+    .about-section, .about-section.reverse {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .about-content {
+        padding: 20px 0;
+    }
+}
