@@ -86,3 +86,27 @@ footer{
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+/* contact page*/ 
+input.form1{
+    background-color: #2b5214;
+    color: white;
+    width: 100%;
+    margin: 0.5% 1%;
+}
+input.form2{
+    background-color: #2b5214;
+    color: white;
+    width: 100%;
+    height: 6em;
+    margin: 0.5% 1%;
+}
+input.button{
+    background-color: #2b5214;
+    color: white;
+    width: 10%;
+    height: 4em;
+}
+div.button{
+    
+}
